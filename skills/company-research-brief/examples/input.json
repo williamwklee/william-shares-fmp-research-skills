@@ -1,0 +1,356 @@
+{
+  "income": [
+    {
+      "symbol": "ALPHA",
+      "date": "2025-06-30",
+      "period": "Q2",
+      "reportedCurrency": "USD",
+      "revenue": 10000,
+      "netIncome": 1500,
+      "filingDate": "2025-07-31",
+      "acceptedDate": "2025-07-31T16:00:00Z",
+      "finalLink": "https://example.org/synthetic-filing"
+    }
+  ],
+  "balance": [
+    {
+      "date": "2025-06-30",
+      "period": "Q2",
+      "reportedCurrency": "EUR",
+      "totalDebt": 2000,
+      "cashAndCashEquivalents": 3000
+    }
+  ],
+  "cashflow": [
+    {
+      "date": "2025-06-30",
+      "period": "Q2",
+      "reportedCurrency": "USD",
+      "operatingCashFlow": 2000,
+      "freeCashFlow": 1600
+    }
+  ],
+  "segments": [
+    {
+      "date": "2025-06-30",
+      "period": "Q2",
+      "reportedCurrency": "USD",
+      "data": {
+        "Hardware": 6000,
+        "Services": 4000
+      }
+    }
+  ],
+  "estimates": [
+    {
+      "date": "2030-12-31",
+      "revenueAvg": 20000
+    },
+    {
+      "date": "2026-12-31",
+      "revenueAvg": 12000
+    }
+  ],
+  "estimates_period": "annual",
+  "as_of": "2025-08-01",
+  "provenance": {
+    "provider": "synthetic teaching fixture",
+    "status": "invented values, identities and dates; no real security recommendation",
+    "retrieved_at": null,
+    "endpoint": "offline-fixture",
+    "parameters": {}
+  },
+  "modules": {
+    "institutional": {
+      "kind": "institutional",
+      "positions": [
+        {
+          "security": "ALPHA",
+          "identity": [
+            "SYNTH0001",
+            "COM",
+            "SH",
+            ""
+          ],
+          "previous_shares": 100,
+          "current_shares": 100,
+          "share_change": 0,
+          "previous_value": 10000.0,
+          "current_value": 12000.0,
+          "classification": "shares unchanged",
+          "previous_reporting_date": "2025-03-31",
+          "current_reporting_date": "2025-06-30",
+          "previous_filing_date": "2025-05-15",
+          "current_filing_date": "2025-08-14",
+          "previous_source": null,
+          "current_source": null,
+          "previous_symbol": "ALPHA",
+          "current_symbol": "ALPHA",
+          "current_reported_value_weight_pct": 34.78260869565217,
+          "previous_reported_value_weight_pct": 33.333333333333336,
+          "share_change_pct": 0.0
+        },
+        {
+          "security": "BETA",
+          "identity": [
+            "SYNTH0002",
+            "COM",
+            "SH",
+            ""
+          ],
+          "previous_shares": 200,
+          "current_shares": 250,
+          "share_change": 50,
+          "previous_value": 20000.0,
+          "current_value": 22500.0,
+          "classification": "shares increased",
+          "previous_reporting_date": "2025-03-31",
+          "current_reporting_date": "2025-06-30",
+          "previous_filing_date": "2025-05-15",
+          "current_filing_date": "2025-08-14",
+          "previous_source": null,
+          "current_source": null,
+          "previous_symbol": "BETA",
+          "current_symbol": "BETA",
+          "current_reported_value_weight_pct": 65.21739130434783,
+          "previous_reported_value_weight_pct": 66.66666666666667,
+          "share_change_pct": 25.0
+        }
+      ],
+      "metadata": {
+        "manager": "Example Manager",
+        "provenance_status": "invented values, identities and dates; no real security recommendation",
+        "retrieved_at": null,
+        "retrieved_date": null,
+        "coverage_complete": false,
+        "source_checks_complete": false
+      },
+      "source_checks": [],
+      "warnings": [
+        "Changes describe the supplied reported positions, not exact trades or current holdings.",
+        "Market-value changes do not establish share purchases, trade dates, cost basis or motives.",
+        "Independent original-filing validation is pending.",
+        "Full filing coverage/amendment reconciliation is unverified; first/missing observations are not asserted buys or exits.",
+        "Weights use supplied reported 13F value, not the manager's total assets."
+      ],
+      "markdown": "# Institutional ownership research\n\n| Source / coverage | Value |\n| --- | --- |\n| manager | Example Manager |\n| provenance_status | invented values, identities and dates; no real security recommendation |\n| retrieved_at | not available |\n| retrieved_date | not available |\n| coverage_complete | False |\n| source_checks_complete | False |\n\n| Security | Previous shares | Current shares | Change | Change (%) | Current reported-value weight (%) | Observation |\n| --- | --- | --- | --- | --- | --- | --- |\n| ALPHA | 100 | 100 | 0 | 0.00 | 34.78 | shares unchanged |\n| BETA | 200 | 250 | 50 | 25.00 | 65.22 | shares increased |\n\n## Dates and original-source locators\n\n| Security | Previous reporting date | Current reporting date | Previous filing date | Current filing date |\n| --- | --- | --- | --- | --- |\n| ALPHA | 2025-03-31 | 2025-06-30 | 2025-05-15 | 2025-08-14 |\n| BETA | 2025-03-31 | 2025-06-30 | 2025-05-15 | 2025-08-14 |\n\n| Security | Previous source | Current source |\n| --- | --- | --- |\n| ALPHA | not available | not available |\n| BETA | not available | not available |\n\n## Interpretation limits\n\n- Changes describe the supplied reported positions, not exact trades or current holdings.\n- Market-value changes do not establish share purchases, trade dates, cost basis or motives.\n- Independent original-filing validation is pending.\n- Full filing coverage/amendment reconciliation is unverified; first/missing observations are not asserted buys or exits.\n- Weights use supplied reported 13F value, not the manager's total assets."
+    },
+    "earnings": {
+      "kind": "earnings",
+      "calls": {
+        "previous": {
+          "symbol": "ALPHA",
+          "period": "Q1",
+          "year": 2025,
+          "date": "2025-04-24",
+          "passages": [
+            {
+              "locator": "previous:P0001",
+              "text": "CEO: Demand remains stable.",
+              "speaker": "CEO",
+              "section": "prepared/unknown",
+              "start_character": 0,
+              "end_character": 27
+            },
+            {
+              "locator": "previous:P0002",
+              "text": "CFO: For the June quarter, we expect revenue growth of 5 to 7 percent and GAAP gross margin of 40 to 42 percent.",
+              "speaker": "CFO",
+              "section": "prepared/unknown",
+              "start_character": 28,
+              "end_character": 140
+            }
+          ],
+          "all_passages": [
+            {
+              "locator": "previous:P0001",
+              "text": "CEO: Demand remains stable.",
+              "speaker": "CEO",
+              "section": "prepared/unknown",
+              "start_character": 0,
+              "end_character": 27
+            },
+            {
+              "locator": "previous:P0002",
+              "text": "CFO: For the June quarter, we expect revenue growth of 5 to 7 percent and GAAP gross margin of 40 to 42 percent.",
+              "speaker": "CFO",
+              "section": "prepared/unknown",
+              "start_character": 28,
+              "end_character": 140
+            },
+            {
+              "locator": "previous:P0003",
+              "text": "Operator: We will now take questions.",
+              "speaker": "Operator",
+              "section": "prepared/unknown",
+              "start_character": 141,
+              "end_character": 178
+            }
+          ],
+          "full_characters": 178,
+          "content_sha256": "07f20bb6db258bdf6ae2df5fb277fa8e69918790e39291c46914b77089a15491",
+          "speaker_parsing": "speaker labels carried when recognised; unknown remains unknown",
+          "source_complete": false
+        },
+        "current": {
+          "symbol": "ALPHA",
+          "period": "Q2",
+          "year": 2025,
+          "date": "2025-07-24",
+          "passages": [
+            {
+              "locator": "current:P0001",
+              "text": "CEO: Demand is stronger in our main product line.",
+              "speaker": "CEO",
+              "section": "prepared/unknown",
+              "start_character": 0,
+              "end_character": 49
+            },
+            {
+              "locator": "current:P0002",
+              "text": "CFO: For the September quarter, we expect revenue growth of 8 to 10 percent and GAAP gross margin of 40 to 42 percent.",
+              "speaker": "CFO",
+              "section": "prepared/unknown",
+              "start_character": 50,
+              "end_character": 168
+            }
+          ],
+          "all_passages": [
+            {
+              "locator": "current:P0001",
+              "text": "CEO: Demand is stronger in our main product line.",
+              "speaker": "CEO",
+              "section": "prepared/unknown",
+              "start_character": 0,
+              "end_character": 49
+            },
+            {
+              "locator": "current:P0002",
+              "text": "CFO: For the September quarter, we expect revenue growth of 8 to 10 percent and GAAP gross margin of 40 to 42 percent.",
+              "speaker": "CFO",
+              "section": "prepared/unknown",
+              "start_character": 50,
+              "end_character": 168
+            },
+            {
+              "locator": "current:P0003",
+              "text": "Operator: We will now take questions.",
+              "speaker": "Operator",
+              "section": "prepared/unknown",
+              "start_character": 169,
+              "end_character": 206
+            }
+          ],
+          "full_characters": 206,
+          "content_sha256": "9f3a23d3b605fcaf7c2fa8b583d4fc1bf4a4e1116b56462334c15f30c6a8ba66",
+          "speaker_parsing": "speaker labels carried when recognised; unknown remains unknown",
+          "source_complete": false
+        }
+      },
+      "warnings": [
+        "Passage selection is deterministic retrieval, not a sentiment verdict or verified guidance change.",
+        "The skill must compare meanings, horizons, units and qualifications and cite the source passages; absent guidance is not inferred.",
+        "Current analyst estimates do not establish historical consensus."
+      ],
+      "markdown": "# Earnings-call comparison evidence\n\n| Call | Fiscal period | Date | Relevant passage locators |\n| --- | --- | --- | --- |\n| previous | 2025 Q1 | 2025-04-24 | previous:P0001, previous:P0002 |\n| current | 2025 Q2 | 2025-07-24 | current:P0001, current:P0002 |\n\n## Located evidence\n\n### previous previous:P0001\n\nCEO: Demand remains stable.\n\n### previous previous:P0002\n\nCFO: For the June quarter, we expect revenue growth of 5 to 7 percent and GAAP gross margin of 40 to 42 percent.\n\n### current current:P0001\n\nCEO: Demand is stronger in our main product line.\n\n### current current:P0002\n\nCFO: For the September quarter, we expect revenue growth of 8 to 10 percent and GAAP gross margin of 40 to 42 percent.\n\nThe companion JSON retains all passage spans and source hashes. The assistant compares meaning, fiscal horizon, units, GAAP/non-GAAP definitions and qualifications, citing before/after locators. Retrieval tags do not establish raised/lowered guidance. Missing or ambiguous source/speaker coverage must be disclosed.\n"
+    },
+    "funds": {
+      "kind": "funds",
+      "fund_a": {
+        "weights": {
+          "CUSIP:SYNTH0001": 60.0,
+          "CUSIP:SYNTH0002": 40.0
+        },
+        "excluded": [],
+        "total_weight": 100.0,
+        "comparable_weight": 100.0,
+        "symbol_fallbacks": [],
+        "securities": {
+          "CUSIP:SYNTH0001": {
+            "name": "Alpha",
+            "symbol": "ALPHA",
+            "issuer_id": null,
+            "isin": null,
+            "cusip": "SYNTH0001"
+          },
+          "CUSIP:SYNTH0002": {
+            "name": "Beta",
+            "symbol": "BETA",
+            "issuer_id": null,
+            "isin": null,
+            "cusip": "SYNTH0002"
+          }
+        },
+        "provider_update_timestamps": [],
+        "excluded_net_weight": 0,
+        "excluded_gross_weight": 0
+      },
+      "fund_b": {
+        "weights": {
+          "CUSIP:SYNTH0001": 25.0,
+          "CUSIP:SYNTH0003": 75.0
+        },
+        "excluded": [],
+        "total_weight": 100.0,
+        "comparable_weight": 100.0,
+        "symbol_fallbacks": [],
+        "securities": {
+          "CUSIP:SYNTH0001": {
+            "name": "Alpha",
+            "symbol": "ALPHA",
+            "issuer_id": null,
+            "isin": null,
+            "cusip": "SYNTH0001"
+          },
+          "CUSIP:SYNTH0003": {
+            "name": "Gamma",
+            "symbol": "GAMMA",
+            "issuer_id": null,
+            "isin": null,
+            "cusip": "SYNTH0003"
+          }
+        },
+        "provider_update_timestamps": [],
+        "excluded_net_weight": 0,
+        "excluded_gross_weight": 0
+      },
+      "shared_securities": 1,
+      "overlap_percentage_points": 25.0,
+      "contributions": [
+        {
+          "security": "CUSIP:SYNTH0001",
+          "fund_a_weight": 60.0,
+          "fund_b_weight": 25.0,
+          "overlap": 25.0
+        }
+      ],
+      "combined_direct_security_weight_pct": {
+        "CUSIP:SYNTH0001": 42.5,
+        "CUSIP:SYNTH0002": 20.0,
+        "CUSIP:SYNTH0003": 37.5
+      },
+      "effective_dates": {
+        "fund_a": "2025-06-30",
+        "fund_b": "2025-06-30"
+      },
+      "warnings": [
+        "Overlap is sum of the minimum original percentage weights over comparable identified positive holdings; no renormalisation.",
+        "Cash, negative, unidentified and derivative entries are separately excluded; this is not full economic exposure.",
+        "Provider updatedAt is not assumed to be the holdings effective date; snapshots may differ.",
+        "Allocation look-through covers identified direct securities only; residual allocation and excluded exposures remain separate."
+      ],
+      "markdown": "# Current fund holdings overlap\n\nComparable overlap: **25.00 percentage points**, 1 shared identifiers.\n\n| Measure | Fund A | Fund B |\n| --- | --- | --- |\n| Supplied total weight (%) | 100.00 | 100.00 |\n| Comparable identified weight (%) | 100.00 | 100.00 |\n| Excluded gross weight (%) | 0.00 | 0.00 |\n\n## Largest comparable overlaps\n\n| Security | Fund A (%) | Fund B (%) | Overlap (pp) |\n| --- | --- | --- | --- |\n| CUSIP:SYNTH0001 | 60.00 | 25.00 | 25.00 |\n\n- Overlap is sum of the minimum original percentage weights over comparable identified positive holdings; no renormalisation.\n- Cash, negative, unidentified and derivative entries are separately excluded; this is not full economic exposure.\n- Provider updatedAt is not assumed to be the holdings effective date; snapshots may differ.\n- Allocation look-through covers identified direct securities only; residual allocation and excluded exposures remain separate."
+    }
+  },
+  "profile": {
+    "symbol": "ALPHA",
+    "description": "Invented teaching company with Hardware and Services segments."
+  },
+  "news": [
+    {
+      "publishedDate": "2025-08-02",
+      "title": "Invented future news excluded",
+      "url": "https://example.org/news"
+    }
+  ]
+}

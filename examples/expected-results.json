@@ -1,0 +1,24 @@
+{
+  "institutional": {
+    "ALPHA_share_change": 0,
+    "BETA_share_change": 50,
+    "BETA_share_change_pct": 25
+  },
+  "funds": {
+    "overlap_percentage_points": 25,
+    "combined_ALPHA_weight_pct": 42.5
+  },
+  "earnings": {
+    "growth_ranges": [
+      "5 to 7 percent",
+      "8 to 10 percent"
+    ],
+    "gross_margin": "40 to 42 percent both calls",
+    "qualification": "Different forward fiscal quarters; this is a change in next-quarter outlook, not a revision to one fixed quarter."
+  },
+  "company": {
+    "net_margin_pct": 15,
+    "segment_sum": 10000,
+    "nearest_forecast": "2026-12-31"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "previous": [
+    {
+      "symbol": "ALPHA",
+      "year": 2025,
+      "period": "Q1",
+      "date": "2025-04-24",
+      "content": "CEO: Demand remains stable. CFO: For the June quarter, we expect revenue growth of 5 to 7 percent and GAAP gross margin of 40 to 42 percent. Operator: We will now take questions.\nAnalyst: Is this a forecast beyond that quarter?\nCFO: We do not provide guidance beyond the stated quarter; supply and currency risks remain material."
+    }
+  ],
+  "current": [
+    {
+      "symbol": "ALPHA",
+      "year": 2025,
+      "period": "Q2",
+      "date": "2025-07-24",
+      "content": "CEO: Demand is stronger in our main product line. CFO: For the September quarter, we expect revenue growth of 8 to 10 percent and GAAP gross margin of 40 to 42 percent. Operator: We will now take questions.\nAnalyst: Is this a forecast beyond that quarter?\nCFO: We do not provide guidance beyond the stated quarter; supply and currency risks remain material.",
+      "truncated": true
+    }
+  ],
+  "provenance": {
+    "provider": "synthetic teaching fixture",
+    "status": "invented values, identities and dates; no real security recommendation",
+    "retrieved_at": null,
+    "endpoint": "offline-fixture",
+    "parameters": {}
+  }
+}

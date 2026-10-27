@@ -1,0 +1,10 @@
+{
+  "fund_a": [
+    {
+      "isin": "US0378331005",
+      "securityCusip": "BAD",
+      "weightPercentage": 100
+    }
+  ],
+  "fund_b": []
+}

@@ -1,0 +1,53 @@
+{
+  "fund_a": [
+    {
+      "asset": "ALPHA",
+      "securityCusip": "SYNTH0001",
+      "weightPercentage": 60,
+      "name": "Alpha"
+    },
+    {
+      "asset": "BETA",
+      "securityCusip": "SYNTH0002",
+      "weightPercentage": 40,
+      "name": "Beta"
+    },
+    {
+      "name": "Synthetic cash collateral",
+      "weightPercentage": 3
+    },
+    {
+      "name": "Synthetic contra future",
+      "weightPercentage": -3
+    }
+  ],
+  "fund_b": [
+    {
+      "asset": "ALPHA",
+      "securityCusip": "SYNTH0001",
+      "weightPercentage": 25,
+      "name": "Alpha"
+    },
+    {
+      "asset": "GAMMA",
+      "securityCusip": "SYNTH0003",
+      "weightPercentage": 75,
+      "name": "Gamma"
+    }
+  ],
+  "allocation_pct": {
+    "fund_a": 50,
+    "fund_b": 50
+  },
+  "effective_date_a": "2025-06-30",
+  "effective_date_b": "2025-06-30",
+  "provenance": {
+    "provider": "synthetic teaching fixture",
+    "status": "invented values, identities and dates; no real security recommendation",
+    "retrieved_at": null,
+    "endpoint": "offline-fixture",
+    "parameters": {}
+  },
+  "fund_a_label": "Invented Growth Fund",
+  "fund_b_label": "Invented Broad Fund"
+}

@@ -1,0 +1,84 @@
+{
+  "previous": [
+    {
+      "symbol": "ALPHA",
+      "securityCusip": "SYNTH0001",
+      "titleOfClass": "COM",
+      "sharesType": "SH",
+      "shares": 100,
+      "value": 10000,
+      "date": "2025-03-31",
+      "filingDate": "2025-05-15"
+    },
+    {
+      "symbol": "BETA",
+      "securityCusip": "SYNTH0002",
+      "titleOfClass": "COM",
+      "sharesType": "SH",
+      "shares": 200,
+      "value": 20000,
+      "date": "2025-03-31",
+      "filingDate": "2025-05-15"
+    },
+    {
+      "symbol": "SPLIT",
+      "securityCusip": "SYNTH0004",
+      "titleOfClass": "COM",
+      "sharesType": "SH",
+      "value": 100,
+      "shares": 20
+    },
+    {
+      "symbol": "ABSENT",
+      "securityCusip": "SYNTH0005",
+      "titleOfClass": "COM",
+      "sharesType": "SH",
+      "value": 100,
+      "shares": 1
+    }
+  ],
+  "current": [
+    {
+      "symbol": "ALPHA",
+      "securityCusip": "SYNTH0001",
+      "titleOfClass": "COM",
+      "sharesType": "SH",
+      "shares": 100,
+      "value": 12000,
+      "date": "2025-06-30",
+      "filingDate": "2025-08-14"
+    },
+    {
+      "symbol": "BETA",
+      "securityCusip": "SYNTH0002",
+      "titleOfClass": "COM",
+      "sharesType": "SH",
+      "shares": 250,
+      "value": 22500,
+      "date": "2025-06-30",
+      "filingDate": "2025-08-14"
+    },
+    {
+      "symbol": "SPLIT",
+      "securityCusip": "SYNTH0004",
+      "titleOfClass": "COM",
+      "sharesType": "SH",
+      "value": 100,
+      "shares": 40
+    }
+  ],
+  "provenance": {
+    "provider": "synthetic teaching fixture",
+    "status": "invented values, identities and dates; no real security recommendation",
+    "retrieved_at": null,
+    "endpoint": "offline-fixture",
+    "parameters": {}
+  },
+  "manager": "Example Manager",
+  "split_adjustments": {
+    "SYNTH0004": {
+      "ratio": 2,
+      "source": "https://example.org/synthetic-split"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "income": [
+    {
+      "symbol": "ALPHA",
+      "date": "2025-06-30",
+      "period": "Q2",
+      "reportedCurrency": "USD",
+      "revenue": 10000,
+      "netIncome": 1500,
+      "filingDate": "2025-07-31",
+      "acceptedDate": "2025-07-31T16:00:00Z",
+      "finalLink": "https://example.org/synthetic-filing"
+    }
+  ],
+  "as_of": "2025-07-01"
+}
